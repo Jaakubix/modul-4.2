@@ -8,3 +8,8 @@ def czyPalindrom(x):
             return True
 print("Podaj słowo lub zdanie: ")
 x = input()
+if czyPalindrom(x) == True:
+    polindrom = f" '{x}' jest polidromem"
+else:
+    polindrom = f" '{x}' nie jest polidromem"
+print(polindrom)
