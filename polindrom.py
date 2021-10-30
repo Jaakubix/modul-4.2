@@ -6,3 +6,5 @@ def czyPalindrom(x):
             return False
         else:
             return True
+print("Podaj słowo lub zdanie: ")
+x = input()
